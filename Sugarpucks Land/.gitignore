@@ -1,0 +1,56 @@
+# ==================================================== #
+# Sean's Unity 5.1+ and Visual Studio .gitignore file! #
+# ==================================================== #
+
+ignore_video/
+bfg.jar
+
+builds/
+builds64/
+build/
+build64/
+test_build/
+test_build64/
+test_builds/
+test_builds64/
+
+# ========================= #
+# Unity Visual Studio Tools #
+# ========================= #
+UnityVS/
+UnityVS.meta
+
+# =============== #
+# Unity generated #
+# =============== #
+Temp/
+Obj/
+UnityGenerated/
+Library/
+
+# ===================================== #
+# Visual Studio / MonoDevelop generated #
+# ===================================== #
+ExportedObj/
+*.svd
+*.userprefs
+*.csproj
+*.pidb
+*.suo
+*.sln
+*.user
+*.unityproj
+*.booproj
+
+# ============ #
+# OS generated #
+# ============ #
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+*Thumbs.db*
+~*
