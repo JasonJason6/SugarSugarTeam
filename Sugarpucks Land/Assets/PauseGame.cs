@@ -14,15 +14,15 @@ public class PauseGame : MonoBehaviour {
 			if (canvas.gameObject.activeInHierarchy == false)
 			{
 				canvas.gameObject.SetActive(true);
-				Time.timeScale = 0;
-				Player.GetComponent<FirstPersonController>().enabled = false;
-			}
+                //Time.timeScale = 0;
+                Player.GetComponent<FirstPersonController>().enabled = false;
+            }
 			else
 			{
 				canvas.gameObject.SetActive(false);
-				Time.timeScale = 1;
-				Player.GetComponent<FirstPersonController>().enabled = true;
-			}
+                //Time.timeScale = 1;
+                Player.GetComponent<FirstPersonController>().enabled = true;
+            }
 		}
 	}
 } 
